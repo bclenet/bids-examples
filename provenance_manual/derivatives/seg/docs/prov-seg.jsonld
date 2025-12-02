@@ -1,6 +1,6 @@
 {
   "BIDSProvVersion": "0.0.1",
-  "@context": "https://raw.githubusercontent.com/bclenet/bids-specification/refs/heads/BEP028_spec/src/provenance-context.json",
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
   "Records": {
     "Software": [],
     "Activities": [
@@ -21,11 +21,10 @@
         ]
       }
     ],
-    "ProvEntities": [
+    "Files": [
       {
         "Id": "bids:raw:sub-001/anat/sub-001_T1w.nii.gz",
-        "Label": "sub-001/anat/sub-001_T1w.nii.gz",
-        "AtLocation": "../../sourcedata/raw/sub-001/anat/sub-001_T1w.nii.gz"
+        "Label": "T1w file"
       },
       {
         "Id": "bids::sub-001/anat/sub-001_space-orig_desc-exp1_dseg.nii.gz",
