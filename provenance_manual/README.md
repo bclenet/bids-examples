@@ -4,6 +4,8 @@
 
 This example aims at showing provenance metadata for a study dataset in which several experts performed manual brain segmentations from the same T1w file.
 
+Some provenance information is provided for both `derivatives/seg` and `sourcedata/raw` datasets.
+
 ## Directory tree
 
 > [!NOTE]
@@ -36,6 +38,8 @@ This example aims at showing provenance metadata for a study dataset in which se
 └── sourcedata
     └── raw
         ├── dataset_description.json
+        ├── prov
+        │   └── prov-raw_ent.json
         └── sub-001
             └── anat
                 ├── sub-001_T1w.json
