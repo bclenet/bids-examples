@@ -1,0 +1,21 @@
+{
+  "Name": "Preprocessed Zhou2016",
+  "BIDSVersion": "1.9.0",
+  "Version": "1.0.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Boris Clénet",
+    "Arno Delorme"
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://zenodo.org/records/16534752",
+      "DOI": "10.82901/nemar.nm000115"
+    }
+  ],
+  "IsEpoched": false,
+  "DatasetLinks": {
+    "nm000115": "https://doi.org/10.82901/nemar.nm000115"
+  }
+}

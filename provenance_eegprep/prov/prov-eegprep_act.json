@@ -1,0 +1,16 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#preparation-qUnddv7M",
+      "Label": "Preparation",
+      "Command": "python bids_minimal_preproc.py --input /data/nm000115",
+      "AssociatedWith": [
+        "bids::prov#eegprep-cyz25rdQ"
+      ],
+      "Used": [
+        "bids:nm000115:.",
+        "bids::prov#eegprep-container-wcfsqd4s"
+      ]
+    }
+  ]
+}
