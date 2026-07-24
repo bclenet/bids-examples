@@ -2,11 +2,12 @@
 
 This example aims at showing provenance metadata for an EEG preprocessing performed with [`EEGPrep`](https://github.com/sccn/eegprep). Provenance metadata was created manually ; it acts as a guideline for further machine-generated provenance by `EEGPrep`. 
 
-The examples demonstrates a provenance only dataset, all data files having been removed...
+The examples demonstrates a provenance only dataset, all data files having been removed. Provenance is encoded accordingly, inside the `prov/` directory.
+Digest
 
 ## Original dataset
 
-This is a derivative dataset, based upon data from [Zhou2016](https://zenodo.org/records/16534752), DOI: 10.82901/nemar.nm000115.
+This derivative dataset is based upon data from [Zhou2016](https://zenodo.org/records/16534752), DOI: 10.82901/nemar.nm000115.
 
 Provenance corresponds to a workflow performed in a previous work by Arno Delorme (see [github.com/arnodelorme/nm000226_test](https://github.com/arnodelorme/nm000226_test/blob/main/code/REPRODUCE.md)) : `eegprep` using minimal preprocessing ; resampling to 100.0 Hz and highpass filtering at 0.5 Hz.
 
@@ -19,8 +20,6 @@ The directory tree is as follows. Files marked with a ✍️ were generated manu
 
 ```
 .
-├── ✍️ code
-│   └── 
 ├── ✍️ dataset_description.json
 ├── ✍️ docs
 │   ├── ✍️ prov-eegprep.jsonld

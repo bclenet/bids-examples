@@ -2,7 +2,7 @@
   "Environments": [
     {
       "Id": "bids::prov#eegprep-container-wcfsqd4s",
-      "Label": "Eegprep docker container",
+      "Label": "eegprep-minimal",
       "AlternativeIdentifier": [
         "https://hub.docker.com/layers/peerherholz/eegprep/latest/images/sha256-b9c51ceb1e2f7cf4c9df5e6f93286a0ae5da3fc74669810785f22d14ec87257a"
       ]

@@ -3,7 +3,7 @@
     {
       "Id": "bids::prov#preparation-qUnddv7M",
       "Label": "Preparation",
-      "Command": "python bids_minimal_preproc.py --input /data/nm000115",
+      "Command": "docker run --rm -v /path/to/nm000115:/data eegprep-minimal",
       "AssociatedWith": [
         "bids::prov#eegprep-cyz25rdQ"
       ],
