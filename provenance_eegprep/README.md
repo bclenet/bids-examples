@@ -1,4 +1,4 @@
-# Provenance of EEG preprocessing with EEGPrep
+# Provenance of EEG preprocessing with `EEGPrep`
 
 This example aims at showing provenance metadata for an EEG preprocessing performed with [`EEGPrep`](https://github.com/sccn/eegprep). Provenance metadata was created manually ; it acts as a guideline for further machine-generated provenance by `EEGPrep`. 
 
