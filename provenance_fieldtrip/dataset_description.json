@@ -1,0 +1,5 @@
+{
+	"Name": "Example dataset",
+	"BIDSVersion": "1.0.2",
+	"GeneratedBy": [{"Name": "Example pipeline"}]
+}
