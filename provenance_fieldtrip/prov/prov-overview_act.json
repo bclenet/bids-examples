@@ -1,62 +1,18 @@
 {
   "Activities": [
     {
-      "Id": "bids::prov#doSingleSubjectAnalysis-iyW3md7M",
-      "Label": "doSingleSubjectAnalysis",
+      "Id": "bids::prov#analysis-3wPr9aee",
+      "Label": "Whole analysis",
       "Used": [
-        "bids::rawdata/Subject01.ds"
-      ],
-      "AssociatedWith": [
-        "bids::prov#fieldtrip-JbWdJR5s"
-      ],
-      "Command": "doSingleSubjectAnalysis('Subject01');"
-    },
-    {
-      "Id": "bids::prov#doSingleSubjectAnalysis-H2ad9fZu",
-      "Label": "doSingleSubjectAnalysis",
-      "Used": [
-        "bids::rawdata/Subject02.ds"
-      ],
-      "AssociatedWith": [
-        "bids::prov#fieldtrip-JbWdJR5s"
-      ],
-      "Command": "doSingleSubjectAnalysis('Subject02');"
-    },
-    {
-      "Id": "bids::prov#doSingleSubjectAnalysis-crL5Jkdd",
-      "Label": "doSingleSubjectAnalysis",
-      "Used": [
-        "bids::rawdata/Subject03.ds"
-      ],
-      "AssociatedWith": [
-        "bids::prov#fieldtrip-JbWdJR5s"
-      ],
-      "Command": "doSingleSubjectAnalysis('Subject03');"
-    },
-    {
-      "Id": "bids::prov#doSingleSubjectAnalysis-5r4Qqpca",
-      "Label": "doSingleSubjectAnalysis",
-      "Used": [
+        "bids::rawdata/Subject01.ds",
+        "bids::rawdata/Subject02.ds",
+        "bids::rawdata/Subject03.ds",
         "bids::rawdata/Subject04.ds"
       ],
       "AssociatedWith": [
         "bids::prov#fieldtrip-JbWdJR5s"
       ],
-      "Command": "doSingleSubjectAnalysis('Subject04');"
-    },
-    {
-      "Id": "bids::prov#doGroupAnalysis-d2gQ5bsa",
-      "Label": "doGroupAnalysis",
-      "Used": [
-        "bids::result_Subject01",
-        "bids::result_Subject02",
-        "bids::result_Subject03",
-        "bids::result_Subject04"
-      ],
-      "AssociatedWith": [
-        "bids::prov#fieldtrip-JbWdJR5s"
-      ],
-      "Command": "doGroupAnalysis({'Subject01', 'Subject02', 'Subject03', 'Subject04'});"
+      "Command": "matlab -nodisplay -nosplash -nodesktop -r \"code/analyse.m\""
     }
   ]
 }

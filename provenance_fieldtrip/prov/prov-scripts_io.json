@@ -17,10 +17,38 @@
       "Label": "Subject04.ds"
     },
     {
+      "Id": "bids::result_Subject01",
+      "Label": "result_Subject01",
+      "GeneratedBy": [
+        "bids::prov#doSingleSubjectAnalysis-iyW3md7M"
+      ]
+    },
+    {
+      "Id": "bids::result_Subject02",
+      "Label": "result_Subject02",
+      "GeneratedBy": [
+        "bids::prov#doSingleSubjectAnalysis-H2ad9fZu"
+      ]
+    },
+    {
+      "Id": "bids::result_Subject03",
+      "Label": "result_Subject03",
+      "GeneratedBy": [
+        "bids::prov#doSingleSubjectAnalysis-crL5Jkdd"
+      ]
+    },
+    {
+      "Id": "bids::result_Subject04",
+      "Label": "result_Subject04",
+      "GeneratedBy": [
+        "bids::prov#doSingleSubjectAnalysis-5r4Qqpca"
+      ]
+    },
+    {
       "Id": "bids::result_Group",
       "Label": "result_Group",
       "GeneratedBy": [
-        "bids::prov#analysis-3wPr9aee"
+        "bids::prov#doGroupAnalysis-d2gQ5bsa"
       ]
     }     
   ]
