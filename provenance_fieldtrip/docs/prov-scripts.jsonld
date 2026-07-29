@@ -1,0 +1,67 @@
+{
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
+  "Records": {
+    "Software": [
+      {
+        "Id": "bids::prov#matlab-Jqa2rc3o",
+        "Label": "Matlab",
+        "Version": "2020b"
+      },
+      {
+        "Id": "bids::prov#fieldtrip-JbWdJR5s",
+        "Label": "FieldTrip",
+        "Version": "2c1ffb2",
+        "AlternativeIdentifier": [
+          "https://github.com/fieldtrip/fieldtrip/commit/2c1ffb21a"
+        ],
+        "ActedOnBehalfOf": [
+          "bids::prov#matlab-Jqa2rc3o"
+        ]
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "bids::prov#analysis-3wPr9aee",
+        "Label": "Whole analysis",
+        "Used": [
+          "bids::rawdata/Subject01.ds",
+          "bids::rawdata/Subject02.ds",
+          "bids::rawdata/Subject03.ds",
+          "bids::rawdata/Subject04.ds"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ],
+        "Command": "matlab -nodisplay -nosplash -nodesktop -r \"code/analyse.m\""
+      }
+    ],
+    "Files": [],
+    "Datasets": [
+      {
+        "Id": "bids::rawdata/Subject01.ds",
+        "Label": "Subject01.ds"
+      },
+      {
+        "Id": "bids::rawdata/Subject02.ds",
+        "Label": "Subject02.ds"
+      },
+      {
+        "Id": "bids::rawdata/Subject03.ds",
+        "Label": "Subject03.ds"
+      },
+      {
+        "Id": "bids::rawdata/Subject04.ds",
+        "Label": "Subject04.ds"
+      },
+      {
+        "Id": "bids::result_Group",
+        "Label": "result_Group",
+        "GeneratedBy": [
+          "bids::prov#analysis-3wPr9aee"
+        ]
+      }
+    ],
+    "prov:Entity": [],
+    "Environments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+	"Datasets": [
+    {
+      "Id": "bids::rawdata/Subject01.ds",
+      "Label": "Subject01.ds"
+    },
+    {
+      "Id": "bids::rawdata/Subject02.ds",
+      "Label": "Subject02.ds"
+    },
+    {
+      "Id": "bids::rawdata/Subject03.ds",
+      "Label": "Subject03.ds"
+    },
+    {
+      "Id": "bids::rawdata/Subject04.ds",
+      "Label": "Subject04.ds"
+    },
+    {
+      "Id": "bids::result_Group",
+      "Label": "result_Group",
+      "GeneratedBy": [
+        "bids::prov#analysis-3wPr9aee"
+      ]
+    }     
+  ]
+}

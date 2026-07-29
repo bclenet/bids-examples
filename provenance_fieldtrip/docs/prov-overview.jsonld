@@ -1,0 +1,139 @@
+{
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
+  "Records": {
+    "Software": [
+      {
+        "Id": "bids::prov#matlab-Jqa2rc3o",
+        "Label": "Matlab",
+        "Version": "2020b"
+      },
+      {
+        "Id": "bids::prov#fieldtrip-JbWdJR5s",
+        "Label": "FieldTrip",
+        "Version": "2c1ffb2",
+        "AlternativeIdentifier": [
+          "https://github.com/fieldtrip/fieldtrip/commit/2c1ffb21a"
+        ],
+        "ActedOnBehalfOf": [
+          "bids::prov#matlab-Jqa2rc3o"
+        ]
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "bids::prov#doSingleSubjectAnalysis-iyW3md7M",
+        "Label": "doSingleSubjectAnalysis",
+        "Used": [
+          "bids::rawdata/Subject01.ds"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ],
+        "Command": "doSingleSubjectAnalysis('Subject01');"
+      },
+      {
+        "Id": "bids::prov#doSingleSubjectAnalysis-H2ad9fZu",
+        "Label": "doSingleSubjectAnalysis",
+        "Used": [
+          "bids::rawdata/Subject02.ds"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ],
+        "Command": "doSingleSubjectAnalysis('Subject02');"
+      },
+      {
+        "Id": "bids::prov#doSingleSubjectAnalysis-crL5Jkdd",
+        "Label": "doSingleSubjectAnalysis",
+        "Used": [
+          "bids::rawdata/Subject03.ds"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ],
+        "Command": "doSingleSubjectAnalysis('Subject03');"
+      },
+      {
+        "Id": "bids::prov#doSingleSubjectAnalysis-5r4Qqpca",
+        "Label": "doSingleSubjectAnalysis",
+        "Used": [
+          "bids::rawdata/Subject04.ds"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ],
+        "Command": "doSingleSubjectAnalysis('Subject04');"
+      },
+      {
+        "Id": "bids::prov#doGroupAnalysis-d2gQ5bsa",
+        "Label": "doGroupAnalysis",
+        "Used": [
+          "bids::result_Subject01",
+          "bids::result_Subject02",
+          "bids::result_Subject03",
+          "bids::result_Subject04"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ],
+        "Command": "doGroupAnalysis({'Subject01', 'Subject02', 'Subject03', 'Subject04'});"
+      }
+    ],
+    "Files": [],
+    "Datasets": [
+      {
+        "Id": "bids::rawdata/Subject01.ds",
+        "Label": "Subject01.ds"
+      },
+      {
+        "Id": "bids::rawdata/Subject02.ds",
+        "Label": "Subject02.ds"
+      },
+      {
+        "Id": "bids::rawdata/Subject03.ds",
+        "Label": "Subject03.ds"
+      },
+      {
+        "Id": "bids::rawdata/Subject04.ds",
+        "Label": "Subject04.ds"
+      },
+      {
+        "Id": "bids::result_Subject01",
+        "Label": "result_Subject01",
+        "GeneratedBy": [
+          "bids::prov#doSingleSubjectAnalysis-iyW3md7M"
+        ]
+      },
+      {
+        "Id": "bids::result_Subject02",
+        "Label": "result_Subject02",
+        "GeneratedBy": [
+          "bids::prov#doSingleSubjectAnalysis-H2ad9fZu"
+        ]
+      },
+      {
+        "Id": "bids::result_Subject03",
+        "Label": "result_Subject03",
+        "GeneratedBy": [
+          "bids::prov#doSingleSubjectAnalysis-crL5Jkdd"
+        ]
+      },
+      {
+        "Id": "bids::result_Subject04",
+        "Label": "result_Subject04",
+        "GeneratedBy": [
+          "bids::prov#doSingleSubjectAnalysis-5r4Qqpca"
+        ]
+      },
+      {
+        "Id": "bids::result_Group",
+        "Label": "result_Group",
+        "GeneratedBy": [
+          "bids::prov#doGroupAnalysis-d2gQ5bsa"
+        ]
+      }
+    ],
+    "prov:Entity": [],
+    "Environments": []
+  }
+}

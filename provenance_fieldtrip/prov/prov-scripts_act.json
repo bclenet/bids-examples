@@ -1,0 +1,18 @@
+{
+  "Activities": [
+    {
+      "Id": "bids::prov#analysis-3wPr9aee",
+      "Label": "Whole analysis",
+      "Used": [
+        "bids::rawdata/Subject01.ds",
+        "bids::rawdata/Subject02.ds",
+        "bids::rawdata/Subject03.ds",
+        "bids::rawdata/Subject04.ds"
+      ],
+      "AssociatedWith": [
+        "bids::prov#fieldtrip-JbWdJR5s"
+      ],
+      "Command": "matlab -nodisplay -nosplash -nodesktop -r \"code/analyse.m\""
+    }
+  ]
+}

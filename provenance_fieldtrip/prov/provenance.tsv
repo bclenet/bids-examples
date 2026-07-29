@@ -1,0 +1,8 @@
+provenance_id	description
+prov-subject01	Provenance of single-subject analysis for Subject01 with reproducescript.
+prov-subject02	Provenance of single-subject analysis for Subject02 with reproducescript.
+prov-subject03	Provenance of single-subject analysis for Subject03 with reproducescript.
+prov-subject04	Provenance of single-subject analysis for Subject04 with reproducescript.
+prov-group	Provenance of group analysis with reproducescript.
+prov-overview	Provenance overview at dataset level of subject+group analyses with reproducescript.
+prov-scripts	Provenance scripts overview at dataset level of subject+group analyses with reproducescript.

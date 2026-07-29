@@ -1,0 +1,349 @@
+{
+  "@context": "https://bids-specification--2099.org.readthedocs.build/en/2099/provenance-context.json",
+  "Records": {
+    "Software": [
+      {
+        "Id": "bids::prov#matlab-Jqa2rc3o",
+        "Label": "Matlab",
+        "Version": "2020b"
+      },
+      {
+        "Id": "bids::prov#fieldtrip-JbWdJR5s",
+        "Label": "FieldTrip",
+        "Version": "2c1ffb2",
+        "AlternativeIdentifier": [
+          "https://github.com/fieldtrip/fieldtrip/commit/2c1ffb21a"
+        ],
+        "ActedOnBehalfOf": [
+          "bids::prov#matlab-Jqa2rc3o"
+        ]
+      }
+    ],
+    "Activities": [
+      {
+        "Id": "bids::prov#ft_multiplotER-jBZq5Tst",
+        "Label": "ft_multiplotER",
+        "Used": [
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat",
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat",
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat",
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_multiplotER-FiBdCVkZ",
+        "Label": "ft_multiplotER",
+        "Used": [
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat",
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat",
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat",
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_multiplotER-dSJjOU5k",
+        "Label": "ft_multiplotER",
+        "Used": [
+          "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_1.mat",
+          "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_2.mat",
+          "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_3.mat",
+          "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_4.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_math-RlKXwq2o",
+        "Label": "ft_math",
+        "Used": [
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat",
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_math-IMeKwpco",
+        "Label": "ft_math",
+        "Used": [
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat",
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_math-L2m5x5SK",
+        "Label": "ft_math",
+        "Used": [
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat",
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_math-pFClILJX",
+        "Label": "ft_math",
+        "Used": [
+          "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat",
+          "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_multiplotER-Bs7HCuU1",
+        "Label": "ft_multiplotER",
+        "Used": [
+          "bids::reproduce_Group/20210112T114330_ft_math_output_data.mat",
+          "bids::reproduce_Group/20210112T114333_ft_math_output_data.mat",
+          "bids::reproduce_Group/20210112T114337_ft_math_output_data.mat",
+          "bids::reproduce_Group/20210112T114340_ft_math_output_data.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_timelockgrandaverage-6zU5AUC1",
+        "Label": "ft_timelockgrandaverage",
+        "Used": [
+          "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_1.mat",
+          "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_2.mat",
+          "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_3.mat",
+          "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_4.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_timelockgrandaverage-oDLxlzAX",
+        "Label": "ft_timelockgrandaverage",
+        "Used": [
+          "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_1.mat",
+          "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_2.mat",
+          "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_3.mat",
+          "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_4.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      },
+      {
+        "Id": "bids::prov#ft_timelockgrandaverage-2hGmi7cT",
+        "Label": "ft_timelockgrandaverage",
+        "Used": [
+          "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_1.mat",
+          "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_2.mat",
+          "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_3.mat",
+          "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_4.mat"
+        ],
+        "AssociatedWith": [
+          "bids::prov#fieldtrip-JbWdJR5s"
+        ]
+      }
+    ],
+    "Files": [
+      {
+        "Id": "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat",
+        "Label": "reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat",
+        "Label": "reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat",
+        "Label": "reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat",
+        "Label": "reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114246_ft_multiplotER_output",
+        "Label": "reproduce_Group/20210112T114246_ft_multiplotER_output",
+        "Command": "cfg = [];cfg.showlabels = 'no';cfg.fontsize = 6;cfg.layout = 'CTF151_helmet.mat';cfg.baseline = [-0.2 0];cfg.xlim = [-0.2 1];cfg.ylim = [-3e-13 3e-13];cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat', 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat', 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat', 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat' };cfg.outputfile = 'reproduce_Group/20210112T114246_ft_multiplotER_output';figure;ft_multiplotER(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_multiplotER-jBZq5Tst"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat",
+        "Label": "reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat",
+        "Label": "reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat",
+        "Label": "reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat",
+        "Label": "reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114303_ft_multiplotER_output",
+        "Label": "reproduce_Group/20210112T114303_ft_multiplotER_output",
+        "Command": "cfg = [];cfg.showlabels = 'no';cfg.fontsize = 6;cfg.layout = 'CTF151_helmet.mat';cfg.baseline = [-0.2 0];cfg.xlim = [-0.2 1];cfg.ylim = [-3e-13 3e-13];cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat', 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat', 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat', 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat' };cfg.outputfile = 'reproduce_Group/20210112T114303_ft_multiplotER_output';figure;ft_multiplotER(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_multiplotER-FiBdCVkZ"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_1.mat",
+        "Label": "reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_1.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_2.mat",
+        "Label": "reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_2.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_3.mat",
+        "Label": "reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_3.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_4.mat",
+        "Label": "reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_4.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114321_ft_multiplotER_output",
+        "Label": "reproduce_Group/20210112T114321_ft_multiplotER_output",
+        "Command": "cfg = [];cfg.showlabels = 'no';cfg.fontsize = 6;cfg.layout = 'CTF151_helmet.mat';cfg.baseline = [-0.2 0];cfg.xlim = [-0.2 1];cfg.ylim = [-3e-13 3e-13];cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_1.mat', 'reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_2.mat', 'reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_3.mat', 'reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_4.mat' };cfg.outputfile = 'reproduce_Group/20210112T114321_ft_multiplotER_output';figure;ft_multiplotER(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_multiplotER-dSJjOU5k"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114330_ft_math_output_data.mat",
+        "Label": "reproduce_Group/20210112T114330_ft_math_output_data.mat",
+        "Command": "cfg = [];cfg.parameter = 'avg';cfg.operation = 'x1-x2';cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat', 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat' };cfg.outputfile = { 'reproduce_Group/20210112T114330_ft_math_output_data.mat' };ft_math(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_math-RlKXwq2o"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114333_ft_math_output_data.mat",
+        "Label": "reproduce_Group/20210112T114333_ft_math_output_data.mat",
+        "Command": "cfg = [];cfg.parameter = 'avg';cfg.operation = 'x1-x2';cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat', 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat' };cfg.outputfile = { 'reproduce_Group/20210112T114333_ft_math_output_data.mat' };ft_math(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_math-IMeKwpco"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114337_ft_math_output_data.mat",
+        "Label": "reproduce_Group/20210112T114337_ft_math_output_data.mat",
+        "Command": "cfg = [];cfg.parameter = 'avg';cfg.operation = 'x1-x2';cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat', 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat' };cfg.outputfile = { 'reproduce_Group/20210112T114337_ft_math_output_data.mat' };ft_math(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_math-L2m5x5SK"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114340_ft_math_output_data.mat",
+        "Label": "reproduce_Group/20210112T114340_ft_math_output_data.mat",
+        "Command": "cfg = [];cfg.parameter = 'avg';cfg.operation = 'x1-x2';cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat', 'reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat' };cfg.outputfile = { 'reproduce_Group/20210112T114340_ft_math_output_data.mat' };ft_math(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_math-pFClILJX"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114351_ft_multiplotER_output",
+        "Label": "reproduce_Group/20210112T114351_ft_multiplotER_output",
+        "Command": "cfg = [];cfg.showlabels = 'no';cfg.fontsize = 6;cfg.layout = 'CTF151_helmet.mat';cfg.baseline = [-0.2 0];cfg.xlim = [-0.2 1];cfg.ylim = [-3e-13 3e-13];cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114330_ft_math_output_data.mat', 'reproduce_Group/20210112T114333_ft_math_output_data.mat', 'reproduce_Group/20210112T114337_ft_math_output_data.mat', 'reproduce_Group/20210112T114340_ft_math_output_data.mat' };cfg.outputfile = 'reproduce_Group/20210112T114351_ft_multiplotER_output';figure;ft_multiplotER(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_multiplotER-Bs7HCuU1"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_1.mat",
+        "Label": "reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_1.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_2.mat",
+        "Label": "reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_2.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_3.mat",
+        "Label": "reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_3.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_4.mat",
+        "Label": "reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_4.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114403_ft_timelockgrandaverage_output_grandavg.mat",
+        "Label": "reproduce_Group/20210112T114403_ft_timelockgrandaverage_output_grandavg.mat",
+        "Command": "cfg = [];cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_1.mat', 'reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_2.mat', 'reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_3.mat', 'reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_4.mat' };cfg.outputfile = { 'reproduce_Group/20210112T114403_ft_timelockgrandaverage_output_grandavg.mat' };ft_timelockgrandaverage(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_timelockgrandaverage-6zU5AUC1"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_1.mat",
+        "Label": "reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_1.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_2.mat",
+        "Label": "reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_2.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_3.mat",
+        "Label": "reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_3.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_4.mat",
+        "Label": "reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_4.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114409_ft_timelockgrandaverage_output_grandavg.mat",
+        "Label": "reproduce_Group/20210112T114409_ft_timelockgrandaverage_output_grandavg.mat",
+        "Command": "cfg = [];cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_1.mat', 'reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_2.mat', 'reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_3.mat', 'reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_4.mat' };cfg.outputfile = { 'reproduce_Group/20210112T114409_ft_timelockgrandaverage_output_grandavg.mat' };ft_timelockgrandaverage(cfg);\n",
+        "GeneratedBy": [
+          "bids::prov#ft_timelockgrandaverage-oDLxlzAX"
+        ]
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_1.mat",
+        "Label": "reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_1.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_2.mat",
+        "Label": "reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_2.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_3.mat",
+        "Label": "reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_3.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_4.mat",
+        "Label": "reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_4.mat"
+      },
+      {
+        "Id": "bids::reproduce_Group/20210112T114415_ft_timelockgrandaverage_output_grandavg.mat",
+        "Label": "reproduce_Group/20210112T114415_ft_timelockgrandaverage_output_grandavg.mat",
+        "Command": "cfg = [];cfg.tracktimeinfo = 'yes';cfg.trackmeminfo = 'yes';cfg.inputfile = { 'reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_1.mat', 'reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_2.mat', 'reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_3.mat', 'reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_4.mat' };cfg.outputfile = { 'reproduce_Group/20210112T114415_ft_timelockgrandaverage_output_grandavg.mat' };ft_timelockgrandaverage(cfg);",
+        "GeneratedBy": [
+          "bids::prov#ft_timelockgrandaverage-2hGmi7cT"
+        ]
+      }
+    ],
+    "Datasets": [],
+    "prov:Entity": [],
+    "Environments": []
+  }
+}

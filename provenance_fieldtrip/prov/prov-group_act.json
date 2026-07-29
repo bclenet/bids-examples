@@ -1,0 +1,139 @@
+{
+    "Activities": [
+        {
+            "Id": "bids::prov#ft_multiplotER-jBZq5Tst",
+            "Label": "ft_multiplotER",
+            "Used": [
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat",
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat",
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat",
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_multiplotER-FiBdCVkZ",
+            "Label": "ft_multiplotER",
+            "Used": [
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat",
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat",
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat",
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_multiplotER-dSJjOU5k",
+            "Label": "ft_multiplotER",
+            "Used": [
+                "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_1.mat",
+                "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_2.mat",
+                "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_3.mat",
+                "bids::reproduce_Group/20210112T114310_ft_multiplotER_input_varargin_4.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_math-RlKXwq2o",
+            "Label": "ft_math",
+            "Used": [
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_1.mat",
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_1.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_math-IMeKwpco",
+            "Label": "ft_math",
+            "Used": [
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_2.mat",
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_2.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_math-L2m5x5SK",
+            "Label": "ft_math",
+            "Used": [
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_3.mat",
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_3.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_math-pFClILJX",
+            "Label": "ft_math",
+            "Used": [
+                "bids::reproduce_Group/20210112T114236_ft_multiplotER_input_varargin_4.mat",
+                "bids::reproduce_Group/20210112T114253_ft_multiplotER_input_varargin_4.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_multiplotER-Bs7HCuU1",
+            "Label": "ft_multiplotER",
+            "Used": [
+                "bids::reproduce_Group/20210112T114330_ft_math_output_data.mat",
+                "bids::reproduce_Group/20210112T114333_ft_math_output_data.mat",
+                "bids::reproduce_Group/20210112T114337_ft_math_output_data.mat",
+                "bids::reproduce_Group/20210112T114340_ft_math_output_data.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_timelockgrandaverage-6zU5AUC1",
+            "Label": "ft_timelockgrandaverage",
+            "Used": [
+                "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_1.mat",
+                "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_2.mat",
+                "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_3.mat",
+                "bids::reproduce_Group/20210112T114358_ft_timelockgrandaverage_input_varargin_4.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_timelockgrandaverage-oDLxlzAX",
+            "Label": "ft_timelockgrandaverage",
+            "Used": [
+                "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_1.mat",
+                "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_2.mat",
+                "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_3.mat",
+                "bids::reproduce_Group/20210112T114404_ft_timelockgrandaverage_input_varargin_4.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        },
+        {
+            "Id": "bids::prov#ft_timelockgrandaverage-2hGmi7cT",
+            "Label": "ft_timelockgrandaverage",
+            "Used": [
+                "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_1.mat",
+                "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_2.mat",
+                "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_3.mat",
+                "bids::reproduce_Group/20210112T114411_ft_timelockgrandaverage_input_varargin_4.mat"
+            ],
+            "AssociatedWith": [
+                "bids::prov#fieldtrip-JbWdJR5s"
+            ]
+        }
+    ]
+}

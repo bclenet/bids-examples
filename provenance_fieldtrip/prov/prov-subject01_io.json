@@ -1,0 +1,161 @@
+{
+  "Files": [
+    {
+      "Id": "bids::prov#entity-AUkz2b7u",
+      "Label": "CTF151_helmet.mat"
+    },
+    {
+      "Id": "bids::rawdata/Subject01.ds",
+      "Label": "Subject01.ds"
+    },
+    {
+      "Id": "bids::rawdata/Subject01.ds/Subject01.meg4",
+      "Label": "Subject01.meg4"
+    },
+    {
+      "Id": "bids::rawdata/Subject01.ds/Subject01.res4",
+      "Label": "Subject01.res4"
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113604_ft_preprocessing_largecfginput_trl.mat",
+      "Label": "20210112T113604_ft_preprocessing_largecfginput_trl.mat"
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113643_ft_megplanar_largecfginput_neighbours.mat",
+      "Label": "20210112T113643_ft_megplanar_largecfginput_neighbours.mat"
+    },    
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113604_ft_preprocessing_output_data.mat",
+      "Label": "20210112T113604_ft_preprocessing_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_preprocessing-5EavaZak"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113611_ft_rejectartifact_output_data.mat",
+      "Label": "20210112T113611_ft_rejectartifact_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_rejectartifact-s2ccYzrL"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113616_ft_timelockanalysis_output_timelock.mat",
+      "Label": "20210112T113616_ft_timelockanalysis_output_timelock.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_timelockanalysis-F3of5tRj"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113621_ft_timelockanalysis_output_timelock.mat",
+      "Label": "20210112T113621_ft_timelockanalysis_output_timelock.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_timelockanalysis-dFd4FPdb"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113625_ft_timelockanalysis_output_timelock.mat",
+      "Label": "20210112T113625_ft_timelockanalysis_output_timelock.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_timelockanalysis-2a2WevJW"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113634_ft_multiplotER_output",
+      "Label": "20210112T113634_ft_multiplotER_output",
+      "GeneratedBy": [
+        "bids::prov#ft_multiplotER-Yo4sYWRe"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113643_ft_prepare_neighbours_output_neighbours.mat",
+      "Label": "20210112T113643_ft_prepare_neighbours_output_neighbours.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_prepare_neighbours-psYFUad4"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113647_ft_megplanar_output_data.mat",
+      "Label": "20210112T113647_ft_megplanar_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_megplanar-iRvaFq24"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113650_ft_megplanar_output_data.mat",
+      "Label": "20210112T113650_ft_megplanar_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_megplanar-7tahEefw"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113653_ft_megplanar_output_data.mat",
+      "Label": "20210112T113653_ft_megplanar_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_megplanar-hpeWbM3X"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113657_ft_combineplanar_output_data.mat",
+      "Label": "20210112T113657_ft_combineplanar_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_combineplanar-x9wfSPgH"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113701_ft_combineplanar_output_data.mat",
+      "Label": "20210112T113701_ft_combineplanar_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_combineplanar-e3cJVTuu"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113704_ft_combineplanar_output_data.mat",
+      "Label": "20210112T113704_ft_combineplanar_output_data.mat",
+      "GeneratedBy": [
+        "bids::prov#ft_combineplanar-HadMdb29"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113708_ft_topoplotER_output",
+      "Label": "20210112T113708_ft_topoplotER_output",
+      "GeneratedBy": [
+        "bids::prov#ft_topoplotER-5LzWdFkC"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113712_ft_topoplotER_output",
+      "Label": "20210112T113712_ft_topoplotER_output",
+      "GeneratedBy": [
+        "bids::prov#ft_topoplotER-bce7D9ue"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113716_ft_topoplotER_output",
+      "Label": "20210112T113716_ft_topoplotER_output",
+      "GeneratedBy": [
+        "bids::prov#ft_topoplotER-vMxdxs33"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113721_ft_topoplotER_output",
+      "Label": "20210112T113721_ft_topoplotER_output",
+      "GeneratedBy": [
+        "bids::prov#ft_topoplotER-2fFtfVcv"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113726_ft_topoplotER_output",
+      "Label": "20210112T113726_ft_topoplotER_output",
+      "GeneratedBy": [
+        "bids::prov#ft_topoplotER-atqFNdS7"
+      ]
+    },
+    {
+      "Id": "bids::reproduce_Subject01/20210112T113731_ft_topoplotER_output",
+      "Label": "20210112T113731_ft_topoplotER_output",
+      "GeneratedBy": [
+        "bids::prov#ft_topoplotER-rdJf2RYc"
+      ]
+    }
+  ]
+}
