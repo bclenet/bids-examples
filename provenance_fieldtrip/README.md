@@ -64,5 +64,8 @@ Hereafter are the rendered version of these descriptions from the broadest to th
 
 ### `prov-subject01` and `prov-group` : Provenance of single-subject analysis for Subject01 (resp. group analysis) with reproducescript
 
+Subject01 analysis:
 ![Rendered version of the RDF graph for entity prov-subject01](docs/prov-subject01.png)
+
+Group analysis:
 ![Rendered version of the RDF graph for entity prov-group](docs/prov-group.png)
